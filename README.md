@@ -26,6 +26,13 @@ is the one that is going to be returned to the user.
 ### TouristTypes Class
 The definition of all the tourist types existent is done in the TouristTypes.py file. The most important class is the class TouristTypes 
 which holds a constructor that assigns to itself five types of citizens: Loonie(although not a tourist), Earthie, Mercurian, Plutonian and Jupitarian. 
-These are defined as separate classes within the same file. Each of these have constructors that assigns them particular characteristics for the attributes
-inherited from the citizen. The Loonie class is sown in the following Figure.
+These are defined as separate classes within the same file. Each of these have constructors that assigns them particular characteristics for the 
+attributes inherited from the citizen. The Loonie class is sown in the following Figure.
 
+![Figure 2](earthie.PNG)
+
+### Result.py
+Result.py is the startup file responsile for giving the user the interaction with the system. Multiple questions are addressed and several options are 
+given for each. ans.lower() gives the user the posibility to not care about the case sensitivity of the system. The input is saved in variables for 
+each attribute and passed as arguments to the Citizen constructor. Than, the compliance degree method is called in order to check the matches made between
+the input and the types of tourists that exist.
