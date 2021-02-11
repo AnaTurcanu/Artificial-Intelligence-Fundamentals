@@ -15,4 +15,4 @@ The citizen's behaviour is defined in the Citizen.py file within the Citizen cla
 In the constructor, we defined the main characteristics of any citizen as a general rule, be it a tourist or a Loonie, 
 such as having, hair, eyes, skin, headshape, height and language spoken.
 The constructor is represented in the Figure below.
-
+![](constructor.png)
