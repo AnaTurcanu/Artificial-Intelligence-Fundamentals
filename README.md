@@ -6,7 +6,7 @@ is the system’s answer. If on the other hand, the system determines that the p
 in question is a Loonie, the answer is accordingly.
 The system simulates the human decision-making process.
 
-**The system has 3 files:**
+**The system has the following modules:**
 - Citizen.py
 - TouristTypes.py
 - Result.py
